@@ -1,0 +1,502 @@
+[
+  {
+    "location": "texas",
+    "country": "USA",
+    "availability": "DEC 1-6",
+    "view": "Lake view",
+    "stars": 4.9,
+    "cost": 162,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "1"
+  },
+  {
+    "location": "location 2",
+    "country": "country 2",
+    "availability": "availability 2",
+    "view": "view 2",
+    "stars": 55,
+    "cost": 45,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "2"
+  },
+  {
+    "location": "location 3",
+    "country": "country 3",
+    "availability": "availability 3",
+    "view": "view 3",
+    "stars": 53,
+    "cost": 1,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "3"
+  },
+  {
+    "location": "location 4",
+    "country": "country 4",
+    "availability": "availability 4",
+    "view": "view 4",
+    "stars": 20,
+    "cost": 63,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "4"
+  },
+  {
+    "location": "location 5",
+    "country": "country 5",
+    "availability": "availability 5",
+    "view": "view 5",
+    "stars": 75,
+    "cost": 52,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "5"
+  },
+  {
+    "location": "location 6",
+    "country": "country 6",
+    "availability": "availability 6",
+    "view": "view 6",
+    "stars": 42,
+    "cost": 25,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "6"
+  },
+  {
+    "location": "location 7",
+    "country": "country 7",
+    "availability": "availability 7",
+    "view": "view 7",
+    "stars": 55,
+    "cost": 10,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "7"
+  },
+  {
+    "location": "location 8",
+    "country": "country 8",
+    "availability": "availability 8",
+    "view": "view 8",
+    "stars": 77,
+    "cost": 59,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "8"
+  },
+  {
+    "location": "location 9",
+    "country": "country 9",
+    "availability": "availability 9",
+    "view": "view 9",
+    "stars": 11,
+    "cost": 90,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "9"
+  },
+  {
+    "location": "location 10",
+    "country": "country 10",
+    "availability": "availability 10",
+    "view": "view 10",
+    "stars": 72,
+    "cost": 88,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "10"
+  },
+  {
+    "location": "location 11",
+    "country": "country 11",
+    "availability": "availability 11",
+    "view": "view 11",
+    "stars": 38,
+    "cost": 38,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "11"
+  },
+  {
+    "location": "location 12",
+    "country": "country 12",
+    "availability": "availability 12",
+    "view": "view 12",
+    "stars": 50,
+    "cost": 27,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "12"
+  },
+  {
+    "location": "location 13",
+    "country": "country 13",
+    "availability": "availability 13",
+    "view": "view 13",
+    "stars": 32,
+    "cost": 55,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "13"
+  },
+  {
+    "location": "location 14",
+    "country": "country 14",
+    "availability": "availability 14",
+    "view": "view 14",
+    "stars": 2,
+    "cost": 79,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "14"
+  },
+  {
+    "location": "location 15",
+    "country": "country 15",
+    "availability": "availability 15",
+    "view": "view 15",
+    "stars": 43,
+    "cost": 35,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "15"
+  },
+  {
+    "location": "location 16",
+    "country": "country 16",
+    "availability": "availability 16",
+    "view": "view 16",
+    "stars": 83,
+    "cost": 76,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "16"
+  },
+  {
+    "location": "location 17",
+    "country": "country 17",
+    "availability": "availability 17",
+    "view": "view 17",
+    "stars": 94,
+    "cost": 37,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "17"
+  },
+  {
+    "location": "location 18",
+    "country": "country 18",
+    "availability": "availability 18",
+    "view": "view 18",
+    "stars": 82,
+    "cost": 81,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "18"
+  },
+  {
+    "location": "location 19",
+    "country": "country 19",
+    "availability": "availability 19",
+    "view": "view 19",
+    "stars": 72,
+    "cost": 75,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "19"
+  },
+  {
+    "location": "location 20",
+    "country": "country 20",
+    "availability": "availability 20",
+    "view": "view 20",
+    "stars": 93,
+    "cost": 63,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "20"
+  },
+  {
+    "location": "location 21",
+    "country": "country 21",
+    "availability": "availability 21",
+    "view": "view 21",
+    "stars": 26,
+    "cost": 61,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "21"
+  },
+  {
+    "location": "location 22",
+    "country": "country 22",
+    "availability": "availability 22",
+    "view": "view 22",
+    "stars": 4,
+    "cost": 57,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "22"
+  },
+  {
+    "location": "location 23",
+    "country": "country 23",
+    "availability": "availability 23",
+    "view": "view 23",
+    "stars": 83,
+    "cost": 75,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "23"
+  },
+  {
+    "location": "location 24",
+    "country": "country 24",
+    "availability": "availability 24",
+    "view": "view 24",
+    "stars": 94,
+    "cost": 57,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "24"
+  },
+  {
+    "location": "location 25",
+    "country": "country 25",
+    "availability": "availability 25",
+    "view": "view 25",
+    "stars": 93,
+    "cost": 49,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "25"
+  },
+  {
+    "location": "location 26",
+    "country": "country 26",
+    "availability": "availability 26",
+    "view": "view 26",
+    "stars": 58,
+    "cost": 62,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "26"
+  },
+  {
+    "location": "location 27",
+    "country": "country 27",
+    "availability": "availability 27",
+    "view": "view 27",
+    "stars": 92,
+    "cost": 17,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "27"
+  },
+  {
+    "location": "location 28",
+    "country": "country 28",
+    "availability": "availability 28",
+    "view": "view 28",
+    "stars": 12,
+    "cost": 58,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "28"
+  },
+  {
+    "location": "location 29",
+    "country": "country 29",
+    "availability": "availability 29",
+    "view": "view 29",
+    "stars": 39,
+    "cost": 94,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "29"
+  },
+  {
+    "location": "location 30",
+    "country": "country 30",
+    "availability": "availability 30",
+    "view": "view 30",
+    "stars": 57,
+    "cost": 76,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "30"
+  },
+  {
+    "location": "location 31",
+    "country": "country 31",
+    "availability": "availability 31",
+    "view": "view 31",
+    "stars": 43,
+    "cost": 15,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "31"
+  },
+  {
+    "location": "location 32",
+    "country": "country 32",
+    "availability": "availability 32",
+    "view": "view 32",
+    "stars": 81,
+    "cost": 18,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "32"
+  },
+  {
+    "location": "location 33",
+    "country": "country 33",
+    "availability": "availability 33",
+    "view": "view 33",
+    "stars": 2,
+    "cost": 6,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "33"
+  },
+  {
+    "location": "location 34",
+    "country": "country 34",
+    "availability": "availability 34",
+    "view": "view 34",
+    "stars": 63,
+    "cost": 78,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "34"
+  },
+  {
+    "location": "location 35",
+    "country": "country 35",
+    "availability": "availability 35",
+    "view": "view 35",
+    "stars": 25,
+    "cost": 88,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "35"
+  },
+  {
+    "location": "location 36",
+    "country": "country 36",
+    "availability": "availability 36",
+    "view": "view 36",
+    "stars": 35,
+    "cost": 47,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "36"
+  },
+  {
+    "location": "location 37",
+    "country": "country 37",
+    "availability": "availability 37",
+    "view": "view 37",
+    "stars": 63,
+    "cost": 24,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "37"
+  },
+  {
+    "location": "location 38",
+    "country": "country 38",
+    "availability": "availability 38",
+    "view": "view 38",
+    "stars": 66,
+    "cost": 44,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "38"
+  },
+  {
+    "location": "location 39",
+    "country": "country 39",
+    "availability": "availability 39",
+    "view": "view 39",
+    "stars": 98,
+    "cost": 98,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "39"
+  },
+  {
+    "location": "location 40",
+    "country": "country 40",
+    "availability": "availability 40",
+    "view": "view 40",
+    "stars": 3,
+    "cost": 82,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "40"
+  },
+  {
+    "location": "location 41",
+    "country": "country 41",
+    "availability": "availability 41",
+    "view": "view 41",
+    "stars": 29,
+    "cost": 98,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "41"
+  },
+  {
+    "location": "location 42",
+    "country": "country 42",
+    "availability": "availability 42",
+    "view": "view 42",
+    "stars": 70,
+    "cost": 6,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "42"
+  },
+  {
+    "location": "location 43",
+    "country": "country 43",
+    "availability": "availability 43",
+    "view": "view 43",
+    "stars": 72,
+    "cost": 23,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "43"
+  },
+  {
+    "location": "location 44",
+    "country": "country 44",
+    "availability": "availability 44",
+    "view": "view 44",
+    "stars": 6,
+    "cost": 91,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "44"
+  },
+  {
+    "location": "location 45",
+    "country": "country 45",
+    "availability": "availability 45",
+    "view": "view 45",
+    "stars": 49,
+    "cost": 28,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "45"
+  },
+  {
+    "location": "location 46",
+    "country": "country 46",
+    "availability": "availability 46",
+    "view": "view 46",
+    "stars": 29,
+    "cost": 7,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "46"
+  },
+  {
+    "location": "location 47",
+    "country": "country 47",
+    "availability": "availability 47",
+    "view": "view 47",
+    "stars": 24,
+    "cost": 79,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "47"
+  },
+  {
+    "location": "location 48",
+    "country": "country 48",
+    "availability": "availability 48",
+    "view": "view 48",
+    "stars": 59,
+    "cost": 43,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "48"
+  },
+  {
+    "location": "location 49",
+    "country": "country 49",
+    "availability": "availability 49",
+    "view": "view 49",
+    "stars": 49,
+    "cost": 81,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "49"
+  },
+  {
+    "location": "location 50",
+    "country": "country 50",
+    "availability": "availability 50",
+    "view": "view 50",
+    "stars": 5,
+    "cost": 32,
+    "image": "https://loremflickr.com/640/480/city",
+    "id": "50"
+  }
+]
