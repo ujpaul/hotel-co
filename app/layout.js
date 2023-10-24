@@ -4,6 +4,7 @@ import ReactQueryProvider from './components/ReactQueryProvider'
 import MaterialTailwind from './components/MaterialTailwind'
 import Header from './components/Header'
 import Search from './components/Search'
+import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
             <Header />
             <Search />
             {children}
+            <Footer />
           </body>
         </html>
       </MaterialTailwind>
