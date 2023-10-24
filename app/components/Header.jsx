@@ -6,7 +6,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className='flex justify-between'>
-      <div className='ml-20 mt-3'>
+      <div className='ml-20 mt-5'>
         <Link href='/'>
           <img src='/logo.png' width={102} height={80} />
         </Link>
@@ -19,7 +19,7 @@ const Header = () => {
       <div className='mr-20 mt-7 flex justify-between gap-3'>
         <span className='mt-2'>Airbnb your home</span>
         <PiGlobeDuotone className='mt-3' />
-        <div className='flex gap-2  rounded-full border border-[#a3a3a3] border-solid border-2 p-2'>
+        <div className='flex gap-2 justify-center items-center w-[86px] h-[48px]  rounded-full border border-[#a3a3a3] border-solid border-2 p-2'>
           <GiHamburgerMenu />
           <FaUserCircle />
         </div>

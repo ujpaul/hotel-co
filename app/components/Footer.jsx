@@ -24,10 +24,12 @@ const Footer = () => {
       <div className='flex justify-between my-10 w-[80%]'>
         {footerMenu.map((menu, index) => (
           <div className='flex flex-col' key={index}>
-            <b>{menu.menu}</b>
+            <p className='mb-2 text-[#222222] cursor-pointer'>{menu.menu}</p>
             <div className='flex flex-col'>
               {menu.children.map((child, index) => (
-                <span key={index}>{child}</span>
+                <span className='cursor-pointer mb-2' key={index}>
+                  {child}
+                </span>
               ))}
             </div>
           </div>
@@ -43,13 +45,13 @@ const Footer = () => {
           <span>. &nbsp; Your Privacy Choices</span>
         </div>
         <div className='flex gap-3 flex-wrap mb-4'>
-          <PiGlobeDuotone className="mt-1" />
+          <PiGlobeDuotone className='mt-1' />
           <span>English(US)</span>
           <span>$</span>
           <span>USD</span>
           <FaFacebookSquare className='ml-4 mt-1' />
           <AiFillTwitterSquare className='ml-2 mt-1' />
-          <FaInstagramSquare className="ml-2 mt-1" />
+          <FaInstagramSquare className='ml-2 mt-1' />
         </div>
       </div>
     </footer>
