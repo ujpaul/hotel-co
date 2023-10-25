@@ -1,3 +1,4 @@
+import React from "react";
 import { IoIosBed } from "react-icons/io";
 import { FaShower } from "react-icons/fa6";
 import { ImHome } from "react-icons/im";
@@ -23,13 +24,13 @@ const details = [
 
 const RoomDetailsAndCost = () => {
   return (
-    <div className='flex gap-4'>
-      <div className='flex flex-col w-[60%]'>
+    <div className='flex flex-wrap gap-4'>
+      <div className='full-width flex flex-col w-[60%]'>
         <div className='flex justify-between mt-3'>
           <h4>Room in A beautiful city</h4>
           <img src='/avatar.webp' className='w-[40px] h-[40px] rounded-full' />
         </div>
-        <div className='flex gap-3'>
+        <div className='flex gap-3 mr-3'>
           {details.map((detail, index) => (
             <div
               key={index}
@@ -67,7 +68,7 @@ const RoomDetailsAndCost = () => {
         </div>
         <div className='w-full h-[1px] bg-[#e9e9e9] mt-4 mb-4' />
       </div>
-      <div className='rounded-lg mb-4 p-4 border border-1 border-[#e9e9e9] shadow-lg w-[30%] mt-4 ml-[8%]'>
+      <div className='full-width rounded-lg mb-4 p-4 border border-1 border-[#e9e9e9] shadow-lg w-[30%] mt-4 ml-[8%]'>
         <b>$15</b>
         <span className='ml-1'>night</span>
         <div className='rounded-lg p-4 border border-1 border-[#e9e9e9] mt-4'>

@@ -1,7 +1,9 @@
-import { footerTab, tabItems, footerMenu } from "../utils/footerData";
+import React from "react";
+import { footerTab, tabItems, footerMenu } from "../../utils/footerData";
 import { PiGlobeDuotone } from "react-icons/pi";
 import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
-import {AiFillTwitterSquare} from "react-icons/ai"
+import { AiFillTwitterSquare } from "react-icons/ai";
+import { PiCaretDownBold } from "react-icons/pi";
 const Footer = () => {
   return (
     <footer className='w-full px-20 pt-10 bg-[#f7f7f7]'>
@@ -15,16 +17,23 @@ const Footer = () => {
       <div className='w-full flex flex-wrap gap-[50px] my-10'>
         {tabItems.map((item, index) => (
           <div className='flex flex-col w-[200px]' key={index}>
-            <b className='cursor-pointer'>{item.title}</b>
+            <div className='flex'>
+              <b className='cursor-pointer'>{item.title}</b>
+              {index === tabItems.length - 1 && (
+                <PiCaretDownBold className='mt-[5px]' />
+              )}
+            </div>
             <span className='cursor-pointer'>{item.subTitle}</span>
           </div>
         ))}
       </div>
       <div className='w-[95%] h-[2px] bg-[#e9e9e9] my-4' />
-      <div className='flex justify-between my-10 w-[80%]'>
+      <div className='flex flex-wrap justify-between my-10 w-[80%]'>
         {footerMenu.map((menu, index) => (
           <div className='flex flex-col' key={index}>
-            <p className='mb-2 text-[#222222] cursor-pointer'>{menu.menu}</p>
+            <span className='mb-2 text-[#222222] cursor-pointer'>
+              {menu.menu}
+            </span>
             <div className='flex flex-col'>
               {menu.children.map((child, index) => (
                 <span className='cursor-pointer mb-2' key={index}>

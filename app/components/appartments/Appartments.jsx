@@ -1,22 +1,23 @@
 "use client";
-import { Fragment } from "react";
-import { useFetchInfiniteQueriesPage } from "../api/hooks/useFetchData";
+import React, { Fragment } from "react";
+import { useFetchInfiniteQueriesPage } from "../../hooks/useFetchData";
 import { Carousel } from "@material-tailwind/react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
 import { AiFillStar } from "react-icons/ai";
 import Link from "next/link";
- const Appartments = () => {
+const Appartments = () => {
   // Fetch appartments data
-   const { data, fetchNextPage,hasNextPage, isLoading } = useFetchInfiniteQueriesPage();
-   if(isLoading) return (
-     <SkeletonTheme baseColor='#f7f7f7' highlightColor='#444'>
-       <p>
-         <Skeleton count={3} />
-       </p>
-     </SkeletonTheme>
-   );
+  const { data, fetchNextPage, hasNextPage, isLoading } =
+    useFetchInfiniteQueriesPage();
+  if (isLoading)
+    return (
+      <SkeletonTheme baseColor='#f7f7f7' highlightColor='#444'>
+        <p>
+          <Skeleton count={3} />
+        </p>
+      </SkeletonTheme>
+    );
   return (
     <>
       <InfiniteScroll
@@ -31,7 +32,7 @@ import Link from "next/link";
           </SkeletonTheme>
         }
       >
-        <div className='flex flex-wrap gap-2 ml-20  mt-2 mb-3 xs:w-[100%]'>
+        <div className='flex flex-wrap gap-2 ml-[4%] mt-2 mb-3'>
           {data?.pages.map((page, index) => (
             <Fragment key={index}>
               {data?.pages[index].map((appartment) => (

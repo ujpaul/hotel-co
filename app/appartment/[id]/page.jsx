@@ -1,5 +1,5 @@
-import AppartmentDetails from '@/app/components/AppartmentDetails';
-import RoomDetailsAndCost from '@/app/components/RoomDetailsAndCost';
+import AppartmentDetails from "@/app/components/appartments/AppartmentDetails";
+import RoomDetailsAndCost from "@/app/components/appartments/RoomDetailsAndCost";
 
 const Appartment = ({ params: { id } }) => {
   return (
@@ -7,7 +7,7 @@ const Appartment = ({ params: { id } }) => {
       <AppartmentDetails appartmentId={id} />
       <RoomDetailsAndCost />
     </div>
-  );  
-}
+  );
+};
 
-export default Appartment
+export default Appartment;
