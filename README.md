@@ -1,8 +1,8 @@
-# <center>STRATEGY</center>
+# STRATEGY
 
 ## Initial assessment and Planning
-* Understand the legacy system by conducting a comprehensive analysis of the existing front-end application to identify its features, shortcomings, and performance issue.
-* Engaging with key business department and end-users to gather their requirements and feedback.
+* Understand the legacy system by conducting a comprehensive analysis of the existing  application to identify its features, shortcomings, and performance issues.
+* Engaging with  business department and end-users to gather their requirements and feedback.
 * Define project goals and set clear objectives for the new system
 
 ## Technology Stack Selection
