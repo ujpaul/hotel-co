@@ -27,7 +27,7 @@ const RoomDetailsAndCost = () => {
     <div className='flex flex-wrap gap-4'>
       <div className='full-width flex flex-col w-[60%]'>
         <div className='flex justify-between mt-3'>
-          <h4>Room in A beautiful city</h4>
+          <b className='text-[#222222] text-xl'>Room in A beautiful city</b>
           <img src='/avatar.webp' className='w-[40px] h-[40px] rounded-full' />
         </div>
         <div className='flex gap-3 mr-3'>
@@ -39,8 +39,8 @@ const RoomDetailsAndCost = () => {
             >
               {detail.icon}
               <div className='flex flex-col'>
-                <small>{detail.detail}</small>
-                <small>{detail.subDetail}</small>
+                <span>{detail.detail}</span>
+                <span>{detail.subDetail}</span>
               </div>
             </div>
           ))}

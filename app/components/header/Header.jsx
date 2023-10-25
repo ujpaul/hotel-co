@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div className='mr-[4%] mt-7 flex justify-between gap-3 display-none'>
         <span className='mt-2'>Airbnb your home</span>
-        <PiGlobeDuotone className='mt-3' />
+        <PiGlobeDuotone className='mt-3' width={16} height={16} />
         <div className='flex gap-2 justify-center items-center w-[86px] h-[48px]  rounded-full border border-[#a3a3a3] border-solid border-2 p-2'>
           <GiHamburgerMenu />
           <FaUserCircle />

@@ -8,19 +8,15 @@ import { motion, useAnimation } from "framer-motion";
 const Categories = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [swiched, setSwiched] = useState(false);
+  const [currentPage, setCurrentPage] = useState(0);
   const controls = useAnimation();
   let containerWidth = windowWidth * 0.7;
   // Number of images to display per page based on the container's width
-  //   const imagesPerPage = Math.floor(containerWidth / 24);
   const imagesPerPage = 10;
-  // State to manage the current page
-  const [currentPage, setCurrentPage] = useState(0);
 
   // Calculate the index range for the current page
   const startIndex = currentPage * imagesPerPage;
   const endIndex = startIndex + imagesPerPage;
-
-  // Slice the images array to display the images for the current page
   const visibleImages = categories.slice(startIndex, endIndex);
 
   // Function to handle the "Next" button click
@@ -45,8 +41,6 @@ const Categories = () => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
-    // Attach the event listener
     window.addEventListener("resize", handleResize);
 
     // Clean up the event listener on component unmount
@@ -88,9 +82,9 @@ const Categories = () => {
                 alt={image.title}
                 width={24}
                 height={24}
-                className='ml-4'
+                className={`${index === 0 ? 'ml-5': 'ml-4'}`}
               />
-              <small className='text-[#8d8d8d] whitespace-nowrap text-[12px]'>
+              <small className={`text-[#8d8d8d] whitespace-nowrap text-[12px] ${index === 0 ? 'ml-3':null}`}>
                 {image.title}
               </small>
             </motion.div>

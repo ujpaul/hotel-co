@@ -61,7 +61,6 @@ const Appartments = () => {
                       <div className='flex gap-1 ml-4'>
                         <AiFillStar
                           className='mt-1'
-                          onClick={() => console.log(data.pages)}
                         />
                         <span className='text[#2b2b2b] cursor-pointer'>
                           {appartment.stars}

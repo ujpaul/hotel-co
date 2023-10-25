@@ -38,7 +38,7 @@ const Search = () => {
           </div>
         </div>
       </div>
-      <div className='w-[100%] h-[1px] bg-[#ebebeb] mt-10' />
+      <div className='w-[100%] h-[1px] border border-1 border-[#ebebeb] my-8' />
     </>
   );
 }

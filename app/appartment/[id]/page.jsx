@@ -1,3 +1,4 @@
+import React from "react";
 import AppartmentDetails from "@/app/components/appartments/AppartmentDetails";
 import RoomDetailsAndCost from "@/app/components/appartments/RoomDetailsAndCost";
 
